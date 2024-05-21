@@ -108,7 +108,7 @@
 											<tr>
 												<td>COMP 380H: Technology, Ethics, & Culture</td>
 												<td>Coming of Age in the Age of Social Media</td>
-												<td><a href="https://opal.ils.unc.edu/~p9313/COMP380/" class="button primary icon solid fa-link">Link</a></td>
+												<td><a href="COMP380/" class="button primary icon solid fa-link">Link</a></td>
 											</tr>
 
 											<tr>
@@ -122,6 +122,43 @@
 									</table>
 								</div>
 							</section>
+							</article>
+
+						
+
+						<!-- Dance -->
+							<article id="dance">
+								<h2 class="major">Connect</h2>
+	<h1>Image Gallery</h1>
+
+    <div class="gallery" onclick="openLightbox(event)">
+        <img src="https://assets.codepen.io/210284/flower-6.jpg"
+            alt="Image 1">
+        <img src="https://assets.codepen.io/210284/flower-7.jpg"
+            alt="Image 2">
+        <img src="https://assets.codepen.io/210284/flower-8.jpg"
+            alt="Image 3">
+        <img src="https://assets.codepen.io/210284/flower-9.jpg"
+            alt="Image 4">
+    </div>
+
+    <!-- Lightbox container -->
+    <div id="lightbox">
+        <!-- Close button -->
+        <span id="close-btn" onclick="closeLightbox()">&times;</span>
+
+        <!-- Main lightbox image -->
+        <img id="lightbox-img" src="" alt="lightbox image">
+
+        <!-- Thumbnails container -->
+        <div id="thumbnail-container">
+            <!-- Thumbnails will be added dynamically using JavaScript -->
+        </div>
+
+        <!-- Previous and Next buttons -->
+        <button id="prev-btn" onclick="changeImage(-1)">&lt; Prev</button>
+        <button id="next-btn" onclick="changeImage(1)">Next &gt;</button>
+    </div>
 							</article>
 
 						<!-- Data J-->
