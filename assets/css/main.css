@@ -1743,6 +1743,7 @@ input, select, textarea {
 
         #prev-btn {
             left: 10px;
+	    top: 10px;
         }
 
         #next-btn {
