@@ -1102,7 +1102,7 @@ input, select, textarea {
 	input[type="reset"],
 	input[type="button"],
 	button {
-		line-height: calc(2.75rem - 2px);
+		line-height: calc(2.75rem - 20px);
 	}
 
 /* BG */
@@ -1720,7 +1720,7 @@ input, select, textarea {
         #close-btn {
             position: absolute;
             top: 10px;
-            right: 200px;
+            right: 220px;
             font-size: 24px;
             color: #fff;
             cursor: pointer;
